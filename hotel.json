@@ -1,0 +1,330 @@
+{
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Mini Dreamy Room",
+      "desc": "Spacious and comfortable, this modern furnished room offers a queen-size bed and breathtaking views.",
+      "size": 25,
+      "beds": 1,
+      "capacity": 2,
+      "price": 120,
+      "photo": "images/room_1.png"
+    },
+    {
+      "id": 2,
+      "name": "Sweet Bungalow",
+      "desc": "Spacious and comfortable, this modern furnished room offers a queen-size bed and breathtaking views.",
+      "size": 50,
+      "beds": 1,
+      "capacity": 2,
+      "price": 200,
+      "photo": "images/room_2.png"
+    },
+    {
+      "id": 3,
+      "name": "Los Cocos Suite",
+      "desc": "If you want a little extra from your stay, you might like our superior rooms. With double doors opening onto a private terrace, you will enjoy spectacular views of our pristine beach.",
+      "size": 125,
+      "beds": 3,
+      "capacity": 4,
+      "price": 350,
+      "photo": "images/room_3.png"
+    },
+    {
+      "id": 4,
+      "name": "Summer Coco",
+      "desc": "For large groups of friends or families to enjoy spectacular views of our pristine beach.",
+      "size": 145,
+      "beds": 5,
+      "capacity": 7,
+      "price": 770,
+      "photo": "images/room_1.png"
+    }
+  ],
+  "reservation": [
+    {
+      "id_room": 3,
+      "date_reservation": "2022-11-10T11:54:31.522Z",
+      "check_in_date": "2022-11-11T11:52:20.000Z",
+      "check_out_date": "2022-11-13T11:52:20.000Z",
+      "first_name": "Sasha",
+      "last_name": "Orex",
+      "email": "email@email.com",
+      "phone": "+380934573222",
+      "special_request": "no",
+      "total_price": 700,
+      "id": 1
+    },
+    {
+      "id_room": 4,
+      "date_reservation": "2022-11-10T15:01:54.633Z",
+      "check_in_date": "2022-11-24T15:01:08.000Z",
+      "check_out_date": "2022-11-26T15:01:08.000Z",
+      "first_name": "Vitalii",
+      "last_name": "Habr",
+      "email": "habr@email.com",
+      "phone": "+38000000000",
+      "special_request": "yes",
+      "total_price": 1540,
+      "id": 2
+    },
+    {
+      "id_room": 1,
+      "date_reservation": "2022-11-10T15:07:11.544Z",
+      "check_in_date": "2022-11-15T15:06:55.000Z",
+      "check_out_date": "2022-11-25T15:06:55.000Z",
+      "first_name": "hfj",
+      "last_name": "dsf",
+      "email": "sdf",
+      "phone": "dsf",
+      "special_request": "dsf",
+      "total_price": 1200,
+      "id": 3
+    },
+    {
+      "id_room": 2,
+      "date_reservation": "2022-11-10T15:10:19.918Z",
+      "check_in_date": "2022-11-23T15:10:06.000Z",
+      "check_out_date": "2022-11-25T15:10:06.000Z",
+      "first_name": "dfg",
+      "last_name": "fd",
+      "email": "dfs",
+      "phone": "sfdsg",
+      "special_request": "fdsg",
+      "total_price": 400,
+      "id": 4
+    },
+    {
+      "id_room": 2,
+      "date_reservation": "2022-11-10T21:31:28.437Z",
+      "check_in_date": "2022-11-16T21:30:59.000Z",
+      "check_out_date": "2022-11-19T21:30:59.000Z",
+      "first_name": "Serhio",
+      "last_name": "Lavelas",
+      "email": "g",
+      "phone": "4332528",
+      "special_request": "dsf",
+      "total_price": 600,
+      "id": 5
+    },
+    {
+      "id_room": 4,
+      "date_reservation": "2022-11-13T19:04:51.464Z",
+      "check_in_date": "2022-11-13T19:04:34.633Z",
+      "check_out_date": "2022-11-15T19:04:34.000Z",
+      "first_name": "Віталій",
+      "last_name": "dfg",
+      "email": "dfg",
+      "phone": "sfdg",
+      "special_request": "dfsg",
+      "selectedServices": [
+        {
+          "id": 2,
+          "name": "Surf classes",
+          "desc": "Learn the basics of surfing in our incredible bay. For only $25 per hour you will have such a great time in family and will learn a fun activity.",
+          "capacity": 2,
+          "price": 25,
+          "photo": "images/activity_2.png"
+        },
+        {
+          "id": 1,
+          "name": "Special dinner",
+          "desc": "In Los Cocos Bungalows we know how to make a special day bright and unforgetable. Enjoy a dinner for 2 in our lovely Greeny Restaurant for an additional $45 per couple.",
+          "capacity": 2,
+          "price": 45,
+          "photo": "images/activity_1.png"
+        },
+        {
+          "id": 3,
+          "name": "Horse Riding",
+          "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+          "capacity": 4,
+          "price": 80,
+          "photo": "images/activity_3.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Horse Riding",
+          "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+          "capacity": 4,
+          "price": 80,
+          "photo": "images/activity_3.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Horse Riding",
+          "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+          "capacity": 4,
+          "price": 80,
+          "photo": "images/activity_3.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Horse Riding",
+          "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+          "capacity": 4,
+          "price": 80,
+          "photo": "images/activity_3.jpg"
+        }
+      ],
+      "total_price": 1930,
+      "id": 6
+    },
+    {
+      "id_room": 2,
+      "date_reservation": "2022-11-13T22:20:19.595Z",
+      "check_in_date": "2022-11-13T22:18:56.224Z",
+      "check_out_date": "2022-11-15T22:18:56.000Z",
+      "first_name": "dfy",
+      "last_name": "dy",
+      "email": "rtd",
+      "phone": "rsty",
+      "special_request": "drty",
+      "selectedServices": [
+        {
+          "id": 2,
+          "name": "Surf classes",
+          "desc": "Learn the basics of surfing in our incredible bay. For only $25 per hour you will have such a great time in family and will learn a fun activity.",
+          "capacity": 2,
+          "price": 25,
+          "photo": "images/activity_2.png"
+        },
+        {
+          "id": 1,
+          "name": "Special dinner",
+          "desc": "In Los Cocos Bungalows we know how to make a special day bright and unforgetable. Enjoy a dinner for 2 in our lovely Greeny Restaurant for an additional $45 per couple.",
+          "capacity": 2,
+          "price": 45,
+          "photo": "images/activity_1.png"
+        },
+        {
+          "id": 3,
+          "name": "Horse Riding",
+          "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+          "capacity": 4,
+          "price": 80,
+          "photo": "images/activity_3.jpg"
+        }
+      ],
+      "total_price": 400,
+      "id": 7
+    },
+    {
+      "id_room": 1,
+      "date_reservation": "2022-11-13T23:10:33.440Z",
+      "check_in_date": "2022-11-13T22:59:35.237Z",
+      "check_out_date": "2022-11-15T22:59:35.000Z",
+      "first_name": "Vitalii",
+      "last_name": "Chaikovskyi",
+      "email": "email@email.com",
+      "phone": "+380634332528",
+      "special_request": "Very cool!",
+      "selectedServices": [
+        {
+          "id": 1,
+          "name": "Special dinner",
+          "desc": "In Los Cocos Bungalows we know how to make a special day bright and unforgetable. Enjoy a dinner for 2 in our lovely Greeny Restaurant for an additional $45 per couple.",
+          "capacity": 2,
+          "price": 45,
+          "photo": "images/activity_1.png"
+        },
+        {
+          "id": 3,
+          "name": "Horse Riding",
+          "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+          "capacity": 4,
+          "price": 80,
+          "photo": "images/activity_3.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Surf classes",
+          "desc": "Learn the basics of surfing in our incredible bay. For only $25 per hour you will have such a great time in family and will learn a fun activity.",
+          "capacity": 2,
+          "price": 25,
+          "photo": "images/activity_2.png"
+        }
+      ],
+      "total_price": 240,
+      "id": 8
+    }
+  ],
+  "messages": [
+    {
+      "date": "2022-11-13T13:04:29.111Z",
+      "name": "vitalik",
+      "email": "email@gmail.com",
+      "messages": "dsghdfydrt",
+      "id": 1
+    },
+    {
+      "date": "2022-11-13T13:05:42.943Z",
+      "name": "sdafs",
+      "email": "email@gmail.com",
+      "messages": "gfxhsrt",
+      "id": 2
+    },
+    {
+      "date": "2022-11-13T13:06:53.046Z",
+      "name": "sdafs",
+      "email": "email@gmail.com",
+      "messages": "gfxhsrt",
+      "id": 3
+    },
+    {
+      "date": "2022-11-13T13:07:20.709Z",
+      "name": "sdaghfs",
+      "email": "email@gmail.com",
+      "messages": "gfxhsrtgdyhs",
+      "id": 4
+    },
+    {
+      "date": "2022-11-13T15:09:42.494Z",
+      "name": "safgd",
+      "email": "dszgfdsgs@gmail.com",
+      "messages": "dfsgsdg",
+      "id": 5
+    },
+    {
+      "date": "2022-11-24T11:09:59.328Z",
+      "name": "vitalii",
+      "email": "garber1329@gmail.com",
+      "messages": "nice",
+      "id": 6
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Special dinner",
+      "desc": "In Los Cocos Bungalows we know how to make a special day bright and unforgetable. Enjoy a dinner for 2 in our lovely Greeny Restaurant for an additional $45 per couple.",
+      "capacity": 2,
+      "price": 45,
+      "photo": "images/activity_1.png"
+    },
+    {
+      "id": 2,
+      "name": "Surf classes",
+      "desc": "Learn the basics of surfing in our incredible bay. For only $25 per hour you will have such a great time in family and will learn a fun activity.",
+      "capacity": 2,
+      "price": 25,
+      "photo": "images/activity_2.png"
+    },
+    {
+      "id": 3,
+      "name": "Horse Riding",
+      "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+      "capacity": 4,
+      "price": 80,
+      "photo": "images/activity_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Best Museums",
+      "desc": "Visit the 6 best museums in Barcelona with Articket, the Art Passport with which you can save up to 45% and keep a memory of your visit.",
+      "capacity": 7,
+      "price": 35,
+      "photo": "images/activity_4.jpg"
+    }
+  ]
+}

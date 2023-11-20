@@ -247,6 +247,29 @@
       ],
       "total_price": 240,
       "id": 8
+    },
+    {
+      "id_room": 4,
+      "date_reservation": "2023-10-02T20:24:37.505Z",
+      "check_in_date": "2023-10-02T20:23:47.815Z",
+      "check_out_date": "2023-10-02T20:23:47.815Z",
+      "first_name": "Vitalii",
+      "last_name": "Chaikovskyi",
+      "email": "email@email.com",
+      "phone": "4332528",
+      "special_request": "",
+      "selectedServices": [
+        {
+          "id": 3,
+          "name": "Horse Riding",
+          "desc": "Gallop through the gorgeous greenery of one of Catalonia's most majestic natural parks on a half-day horse-riding tour from Barcelona.",
+          "capacity": 4,
+          "price": 80,
+          "photo": "images/activity_3.jpg"
+        }
+      ],
+      "total_price": 80,
+      "id": 9
     }
   ],
   "messages": [
